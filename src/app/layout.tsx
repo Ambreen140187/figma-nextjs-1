@@ -24,7 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={"heebo.classname"}>
+      <body className={heebo.className}>
         <Header font={inter} />
         {children}
         <Footer/>
